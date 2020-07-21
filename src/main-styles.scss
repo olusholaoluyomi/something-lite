@@ -1,0 +1,27 @@
+//importing google font
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Nunito:400,700');
+//my colors
+$steelblue: #3073a3;
+$lightseagreen: #1a9bae;
+$light-green:#45f69e;
+$darkslateblue: rgb(81,
+59,
+157);
+$light: #f8f8f8;
+//updating Bulma global variables
+$family-sans-serif: "Nunito",
+san-serif;
+$primary: $lightseagreen;
+$link: $light-green;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+//my styles
+html {
+    background: linear-gradient(to right top, $turquoise, $green);
+}
+
+html,
+body {
+    height: 100%;
+}
